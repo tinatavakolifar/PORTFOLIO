@@ -12,6 +12,13 @@ Note: Sequential circuit state diagram visualization is currently not implemente
 
 ---
 
+- **Full Adder Circuit Simulator**
+  
+A simple Python-based logic circuit simulator for a Full Adder. Allows the user to input the state of A, B, and Carry-in (Cin), and calculates the Sum and Carry-out outputs accordingly. Automatically generates the complete Truth Table for a Full Adder and saves it in a CSV file named FAtruthTable.csv.
+#### **public**
+
+---
+
 - **Graph Analyzer**
 
 Can handle graph analysis and visualization. It allows the user to input a graph (either manually or via CSV file) and perform various analyses such as checking connectivity, detecting cycles, finding shortest paths, computing node degrees, performing topological sorting, and visualizing directed or undirected, weighted or unweighted graphs.
@@ -23,4 +30,5 @@ Can handle graph analysis and visualization. It allows the user to input a graph
 
 Demonstrates the computation and visualization of several spanning tree optimizations from a weighted undirected graph loaded from an adjacency matrix using Kruskals Algorithm, Disjoint Set Union (DSU), Edge Replacement Strategy, NetworkX + Matplotlib.
 #### **public**
+
 ---
